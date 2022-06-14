@@ -11,4 +11,5 @@ val = Math.sqrt(25); // gets the square of the number
 val = Math.pow(5, 2); // takes the first num to the power of the second
 val = Math.abs(-5); // gets the absolute number (disregards from negative numbers)
 
-console.log(val);
+// escaping
+val = "That's awesome!"; // the backslash escapes the single quote before the s
