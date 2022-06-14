@@ -1,6 +1,9 @@
 const num1 = 100;
 const num2 = 50;
 
+let firstName = 'Johnny';
+let lastName = 'LaRusso';
+
 let val;
 
 // simple math with numbers
@@ -13,3 +16,8 @@ val = Math.abs(-5); // gets the absolute number (disregards from negative number
 
 // escaping
 val = "That's awesome!"; // the backslash escapes the single quote before the s
+
+// concat
+val = firstName.concat(' ', lastName);
+
+console.log(val);
