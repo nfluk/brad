@@ -18,6 +18,6 @@ val = Math.abs(-5); // gets the absolute number (disregards from negative number
 val = "That's awesome!"; // the backslash escapes the single quote before the s
 
 // concat
-val = firstName.concat(' ', lastName);
+val = firstName.concat(' ', lastName, '!');
 
 console.log(val);
