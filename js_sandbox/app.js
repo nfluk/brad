@@ -1,5 +1,5 @@
-//console.log('Hello World!');
-//console.table({ name: 'John', occupation: 'carpenter' });
+console.log('Hello World!');
+console.table({ name: 'John', occupation: 'carpenter' });
 
 let value = 5;
 
