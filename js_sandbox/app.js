@@ -1,5 +1,6 @@
 const num1 = 200;
 const num2 = 30;
+const str = 'How do you do madam';
 
 let firstName = 'Johnny';
 let lastName = 'LaRusso';
@@ -19,5 +20,11 @@ val = "That's awesome!"; // the backslash escapes the single quote before the s
 
 // concat
 val = firstName.concat(' ', lastName, '!');
+
+val = str.split(' ');
+
+val = str.replace('madam', 'sir');
+
+val = str.includes('you');
 
 console.log(val);
