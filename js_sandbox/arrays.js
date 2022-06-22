@@ -5,5 +5,14 @@ const mixed = [2, 'car', true, undefined, { a: 33, b: 4 }];
 
 let val;
 
+// get array length
+val = numbers.length;
+
+// check if array
+val = Array.isArray(numbers);
+
+// get single value
+val = fruit[0];
+
 console.log(numbers);
 console.log(val);
