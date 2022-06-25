@@ -3,6 +3,11 @@ const numbers2 = new Array(34, 344, 31, 64, 6);
 const fruit = ['Apple', 'Banana', 'Pear'];
 const mixed = [2, 'car', true, undefined, { a: 33, b: 4 }];
 const mixed2 = [[33, 34, 35], 2, 'car', true, undefined, { a: 33, b: 4 }];
+const cars = [
+  ['honda', 'toyota', 'suzuki'],
+  ['ferrari', 'lamborghini'],
+  ['mercedes', 'bmw', 'audi'],
+];
 
 let val;
 
