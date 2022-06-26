@@ -18,7 +18,7 @@ val = numbers.length;
 val = Array.isArray(numbers);
 
 // get single value
-val = fruit[0];
+val = cars[0][1];
 
 console.log(numbers);
 console.log(val);
