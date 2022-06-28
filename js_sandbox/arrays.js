@@ -18,7 +18,11 @@ val = numbers.length;
 val = Array.isArray(numbers);
 
 // get single value
-val = cars[0][1];
+val = cars[1][1];
+
+// add array to array and get single value
+cars[3] = ['volvo', 'saab'];
+val = cars[3][0];
 
 console.log(numbers);
 console.log(val);
